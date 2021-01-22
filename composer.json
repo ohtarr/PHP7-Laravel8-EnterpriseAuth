@@ -3,16 +3,16 @@
     "description": "Provides authentication, authorization, and accounting for enterprise laravel 5.5+ apps.",
     "license": "LGPL-3.0-or-later",
     "require": {
-        "laravel/framework": ">5.5",
+        "laravel/framework": ">8.0",
         "microsoft/microsoft-graph": "^1.0",
-        "guzzlehttp/guzzle": "^6.3",
-        "doctrine/dbal": "^2.5",
+        "guzzlehttp/guzzle": ">6.3",
+        "doctrine/dbal": ">2.5",
         "silber/bouncer": "v1.0.0-rc.1",
         "owen-it/laravel-auditing": "^6.0",
-        "zircote/swagger-php": "2.*",
-        "darkaonline/l5-swagger": "^5.5",
-        "firebase/php-jwt": "^5.0",
-        "phpseclib/phpseclib": "^2.0"
+        "zircote/swagger-php": ">2.0",
+        "darkaonline/l5-swagger": ">5.5",
+        "firebase/php-jwt": ">5.0",
+        "phpseclib/phpseclib": ">2.0"
     },
     "authors": [
         {
