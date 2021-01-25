@@ -1,6 +1,6 @@
 {
-    "name": "metaclassing/php7-laravel5-enterpriseauth",
-    "description": "Provides authentication, authorization, and accounting for enterprise laravel 5.5+ apps.",
+    "name": "ohtarr/php7-laravel8-enterpriseauth",
+    "description": "Provides authentication, authorization, and accounting for enterprise laravel 8+ apps.",
     "license": "LGPL-3.0-or-later",
     "require": {
         "laravel/framework": ">8.0",
@@ -16,19 +16,18 @@
     },
     "authors": [
         {
-            "name": "metaclassing",
-            "email": "metaclassing@secureobscure.com"
+            "name": "ohtarr"
         }
     ],
     "autoload": {
         "psr-4": {
-            "Metaclassing\\EnterpriseAuth\\": "src/"
+            "ohtarr\\EnterpriseAuth\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Metaclassing\\EnterpriseAuth\\ServiceProvider"
+                "ohtarr\\EnterpriseAuth\\ServiceProvider"
             ]
         }
     }

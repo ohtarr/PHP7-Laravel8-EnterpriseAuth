@@ -1,13 +1,13 @@
-# PHP7-Laravel5-EnterpriseAuth for Azure Active Directory
-[![Build Status](https://scrutinizer-ci.com/g/metaclassing/PHP7-Laravel5-EnterpriseAuth/badges/build.png?b=master)](https://scrutinizer-ci.com/g/metaclassing/PHP7-Laravel5-EnterpriseAuth/build-status/master)
+# PHP7-Laravel8-EnterpriseAuth for Azure Active Directory
+[![Build Status](https://scrutinizer-ci.com/g/ohtarr/PHP7-Laravel8-EnterpriseAuth/badges/build.png?b=master)](https://scrutinizer-ci.com/g/ohtarr/PHP7-Laravel8-EnterpriseAuth/build-status/master)
 [![Style-CI](https://styleci.io/repos/122122106/shield?branch=master)](https://styleci.io/repos/122122106)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/metaclassing/PHP7-Laravel5-EnterpriseAuth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/metaclassing/PHP7-Laravel5-EnterpriseAuth/?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ohtarr/PHP7-Laravel8-EnterpriseAuth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/ohtarr/PHP7-Laravel8-EnterpriseAuth/?branch=master)
 
 ## PRE INSTALLATION
 
 Make sure you dont have any outstanding migrations, this assumes you are installing from a FRESH laravel 5.5 project
 ```
-composer create-project --prefer-dist laravel/laravel laravel55 "5.5.*"
+composer create-project --prefer-dist laravel/laravel laravel55 "8.12.*"
 cd laravel55
 # EDIT YOUR .ENV FILE for things like database connection creds etc.
 php artisan migrate
